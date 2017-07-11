@@ -11,6 +11,7 @@
 .chat--header {
   border-bottom: 1px solid #e5e0e0;
   padding-left: 5px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
 }
@@ -21,8 +22,6 @@
 }
 
 .chat--main {
-  /*border: 2px dashed green;*/
-    /*border-top: 1px solid #e5e0e0;*/
   border-right: 1px solid #e5e0e0;
   flex: 5;
   display: flex;
@@ -42,6 +41,7 @@
 }
 
 .chat--message {
+  flex: 1 0 auto;
   padding-top: 10px;
   max-width: 80%;
   min-height: 40px;
@@ -69,7 +69,6 @@
 
 .chat--new-message {
   padding-right: 5px;
-  /*flex: 2;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,7 +85,6 @@ textarea {
 }
 
 .chat--friends {
-  /*border: 1px dashed black;*/
   padding: 5px;
 }
 
